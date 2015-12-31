@@ -1,5 +1,5 @@
 {
-  "name": "unit test integ demo",
+  "name": "UnittestintegdemoV1",
   "description": "v1",
   "version": "0.0.1",
   "homepage": "git@github.com:hpphat92/unit-test-integ.git",
@@ -16,7 +16,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test",
+    "test": "grunt test"
   },
   "dependencies": {
     "express": "~3.4.4",
@@ -41,6 +41,7 @@
     "requirejs": "~2.1.14"
   },
   "devDependencies": {
+    "angular": "^1.4.8",
     "angular-mocks": "~1.3.13",
     "chai": "^1.10.0",
     "chai-as-promised": "^4.1.1",

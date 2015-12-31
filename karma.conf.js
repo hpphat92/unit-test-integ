@@ -14,8 +14,6 @@ module.exports = function (config){
 
       './node_modules/angular/angular.js',
       './node_modules/angular-mocks/angular-mocks.js',
-      './node_modules/angular-cookies/angular-cookies.js',
-      './node_modules/angular-route/angular-route.js',
       {pattern: 'node_modules/chai/chai.js', included: false, watch: false},
       {pattern: 'node_modules/chai-as-promised/lib/chai-as-promised.js', included: false, watch: false},
       {pattern: 'node_modules/sinon/**/*', included: false, watch: false},

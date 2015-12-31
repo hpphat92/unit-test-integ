@@ -11,7 +11,6 @@ module.exports = function (config){
     //frameworks: ['mocha', 'requirejs', 'chai', 'chai-as-promised'],
 
     files: [
-
       './node_modules/angular/angular.js',
       './node_modules/angular-mocks/angular-mocks.js',
       {pattern: 'node_modules/chai/chai.js', included: false, watch: false},
@@ -19,6 +18,7 @@ module.exports = function (config){
       {pattern: 'node_modules/sinon/**/*', included: false, watch: false},
       {pattern: 'node_modules/sinon-chai/lib/sinon-chai.js', included: false, watch: false},
       {pattern: 'test/*.js', included: true},
+	  'app/*.js',
     ],
     exclude: [],
 

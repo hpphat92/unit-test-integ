@@ -1,18 +1,15 @@
 {
-  "name": "siftUI",
-  "description": "siftUI V2",
-  "version": "2.0.6",
-  "homepage": "git@c.siftsec.com:hui/webui.git",
+  "name": "unit test integ demo",
+  "description": "v1",
+  "version": "0.0.1",
+  "homepage": "git@github.com:hpphat92/unit-test-integ.git",
   "author": {
-    "name": "Jason Ho",
-    "email": "jason@d8ii.com"
+    "name": "Phat Hong",
+    "email": "phat.hong@newoceaninfosys.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@c.siftsec.com:hui/webui.git"
-  },
-  "bugs": {
-    "url": "git@c.siftsec.com:hui/webui.git/issues"
+    "url": "git@github.com:hpphat92/unit-test-integ.git"
   },
   "main": "server.js",
   "engines": {
@@ -20,7 +17,6 @@
   },
   "scripts": {
     "test": "grunt test",
-    "build": "grunt build"
   },
   "dependencies": {
     "express": "~3.4.4",
